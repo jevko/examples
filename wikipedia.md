@@ -22,3 +22,7 @@ Trinomial name [
 ] 
 Synonyms [at least 48 published]
 ```
+
+visual equivalent:
+
+![Wikipedia data on the horse species](https://raw.githubusercontent.com/jevko/writing/main/img/2022-01-24-horse.png)
