@@ -16,3 +16,22 @@ remote.extensionKind [
 git.checkoutType [[local] [remote] [tags]]
 git.defaultCloneDirectory [null]
 ```
+
+JSON equivalent:
+
+```
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "terminal.integrated.wordSeparators": " ()[]{}',\"`─‘’",
+  "terminal.integrated.scrollback": 1000,
+  "remote.extensionKind": {
+    "pub.name": ["ui"]
+  },
+  "git.checkoutType": ["local", "remote", "tags"],
+  "git.defaultCloneDirectory": null
+}
+```
