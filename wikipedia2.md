@@ -1,0 +1,68 @@
+Various data from Wikipedia
+
+```
+Languages [
+  [
+    Name [Sumerian]
+    Native name [[𒅴𒂠][Emegir]]
+    Native to [[Sumer][Akkadian Empire]]
+    Region [Mesopotamia (modern-day Iraq)]
+    Era [Attested from c. 3000 BC. Effectively extinct from about 2000–1800 BC; used as classical language until about 100 AD.]
+    Language family [Language isolate]
+    Writing system [Sumero-Akkadian cuneiform]
+    language codes [
+      ISO 639-2 [sux]
+      ISO 639-3 [sux]
+      Glottolog [sume1241]
+    ]
+  ]
+]
+
+NFLers [
+  [
+    Name [Ray Jackson]
+    Number [[3][33]]
+    Position [Running back]
+    Personal information [
+      Born [
+        [August 1, 1978 (age 43)]
+        [Indianapolis, Indiana]
+      ]
+      Height [6 ft 1 in (1.85 m)]
+      Weight [223 lb (101 kg)]
+    ]
+    Career information [
+      High school [Indianapolis (IN) Lawrence Central]
+      College [Cincinnati]
+      Undrafted [2002]
+    ]
+    Career history [
+      [Cincinnati Bengals (2003)*]
+      [Tennessee Titans (2003–2004)]
+      [Berlin Thunder (2004)]
+      [Cincinnati Marshals (2006)]
+      [Cincinnati Commandos (2010)]
+      * [Offseason and/or practice squad member only]
+    ]
+    Career NFL statistics [
+      Kick returns [3]
+      Yards [77]
+    ]
+  ]
+]
+
+Dolphins [
+  [
+    Name [Moko]
+    Species	[Bottlenose dolphin]
+    Born	[2006]
+    Died	[July 2010 (aged 4)]
+    Resting place	[
+      [Matakana Island, NZ]
+      [Bay of Plenty, NZ]
+    ]
+    Years active	[2007–2010]
+    Known for	[Rescue of pygmy sperm whales]
+  ]
+]
+```

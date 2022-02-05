@@ -1,0 +1,49 @@
+Example river data from Wikipedia
+
+```
+Rivers [
+  [
+    [Robinson River]
+    Location [
+      Country [Australia]
+    ]
+    Physical characteristics [
+      Source [
+        elevation [152 metres (499 ft)]
+      ]
+      Mouth [
+        location [Stokes Bay]
+        elevation [sea level]
+      ]
+      Length [107 kilometres (66 mi)]
+      Basin size [3,329 square kilometres (1,285 sq mi)]
+    ]
+  ]
+  [
+    [Wooramel]
+    Location [
+      Country [Australia]
+      State [Western Australia]
+      Region [Gascoyne]
+    ]
+    Physical characteristics [
+      Source [
+        [McLeod Pyramid]
+        coordinates [25°47′12″S 116°40′23″E]
+        elevation [357 m (1,171 ft)]
+      ]
+      Mouth	[
+        [Shark Bay]
+        location [near Herald Loop]
+        coordinates [25°52′59″S 114°13′57″E]
+        elevation [0 m (0 ft)]
+      ]
+      Length [363 km (226 mi)]
+      Basin size [40,500 km2 (15,600 sq mi)]
+      Discharge [
+        location [mouth]
+      ]
+    ]
+  ]
+]
+```
