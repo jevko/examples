@@ -1,0 +1,27 @@
+More data from Wikipedia:
+
+```
+[Dog]
+Temporal range [At least 14,200 years ago – present]
+Conservation status [Domesticated]
+Scientific classification [
+  Kingdom [Animalia]
+  Phylum [Chordata]
+  Class [Mammalia]
+  Order [Carnivora]
+  Family [Canidae]
+  Genus [Canis]
+  Species [C. familiaris]
+]
+Binomial name [
+  [Canis familiaris]
+  Linnaeus, 1758
+]
+Synonyms [
+  [C. aegyptius Linnaeus, 1758]
+  [C. alco C. E. H. Smith, 1839]
+  [C. americanus Gmelin, 1792]
+  [C. anglicus Gmelin, 1792]
+  [C. antarcticus Gmelin, 1792]
+]
+```
