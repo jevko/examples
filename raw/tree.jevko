@@ -1,0 +1,8 @@
+Prefix 1 [Suffix 1] 
+Prefix 2 [
+  Prefix 2.1 [Suffix 2.1] 
+  Prefix 2.2 [Suffix 2.2] 
+  Suffix 2
+]
+Prefix 3 [Suffix 3]
+Suffix

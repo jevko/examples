@@ -1,0 +1,12 @@
+document [
+  title [The Jevko Syntax: Standard Grammar]
+  section [
+    title [Copyright Notice]
+    paragraph [Copyright © 2022 Darius J Chuck. All rights reserved.]
+  ]
+  section [
+    title [Introduction and scope]
+    paragraph [Jevko is a versatile minimal syntax for encoding tree-structured information.]
+    paragraph [It can be used to define simple and portable formats and languages in a variety of domains, such as data interchange, configuration, or text markup.]
+  ]
+]
