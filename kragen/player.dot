@@ -1,0 +1,42 @@
+digraph player {
+        rankdir=LR;
+        ranksep=1.5;
+        
+        node [shape=record, style="filled", fillcolor="#cc66cc:#336699", gradientangle=315, fontcolor=white, color="#fefefe33", margin=".1,.2"];
+        root [label="{|<1>player}"];
+        root:1 -> player;
+        player [label="{|{<1>name|<2>pitch|<3>yaw|<4>posX|<5>posY|<6>posZ|<7>hp|<8>breath|<9>creation date|<10>modification date|<11>inventory}}"];
+        inventory [label="{|{<1>width|<2>size|<3>name|<4>item|<5>item|<6>item}}"];
+        item1 [label="{default:pick_bronze|{<1>qty|<2>use}}"];
+        item2 [label="{default:shovel_bronze|{<1>qty|<2>use}}"];
+        item3 [label="{default:axe_steel|{<1>qty|<2>use}}"];
+
+        player:1 -> Falstaff;
+        player:2 -> 3.49;
+        player:3 -> 84.6;
+        player:4 -> 1525.92;
+        player:5 -> 135.62;
+        player:6 -> 2952.11;
+        player:7 -> 20;
+        player:8 -> 11;
+        player:9 -> "2022-06-05 02:41:17";
+        player:10 -> "2022-07-22 07:57:48";
+        player:11 -> inventory;
+
+        inventory:1 -> 0;
+        inventory:2 -> 32;
+        inventory:3 -> main;
+
+        q1, q2, q3 [label="1"];
+        inventory:4 -> item1;
+        item1:1 -> q1;
+        item1:2 -> 63336;
+
+        inventory:5 -> item2;
+        item2:1 -> q2;
+        item2:2 -> 38994;
+
+        inventory:6 -> item3;
+        item3:1 -> q3;
+        item3:2 -> 24388;
+}

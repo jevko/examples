@@ -1,0 +1,33 @@
+digraph johnsmith {
+        rankdir=LR;
+        ranksep=1.2;
+        node [shape=record, style="filled", fillcolor="#cc66cc:#336699", gradientangle=315, fontcolor=white, color="#fefefe33", margin=".1,.2"];
+        
+        root [label="{|{<1>first name|<2>last name|<3>is alive|<4>age|<5>address|<6>phone numbers|<7>children|<8>spouse}}"];
+        address [label="{|{<1>street address|<2>city|<3>state|<4>postal code}}"];
+        phones [label="{|{<1>|<2>}}"];
+        phone1, phone2 [label="{|{<1>type|<2>number}}"];
+
+        root:1 -> John;
+        root:2 -> Smith;
+        root:3 -> true;
+        root:4 -> 27;
+        root:5 -> address;
+        address:1 -> "21 2nd Street";
+        address:2 -> "New York";
+        address:3 -> NY;
+        address:4 -> "10021-3100";
+
+        root:6 -> phones;
+        phones:1 -> phone1;
+        phone1:1 -> home;
+        phone1:2 -> "212 555-1234";
+        
+        phones:2 -> phone2;
+        phone2:1 -> office;
+        phone2:2 -> "646 555-4567";
+
+        empty1, empty2 [label=""];
+        root:7 -> empty1;
+        root:8 -> empty2;
+}

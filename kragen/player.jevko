@@ -1,0 +1,13 @@
+player [
+    name [Falstaff] pitch [3.49] yaw [84.6]
+    posX [1525.92] posY [135.62] posZ [2952.11]
+    hp [20] breath [11]
+    creation date     [2022-06-05 02:41:17]
+    modification date [2022-07-22 07:57:48]
+    inventory [
+        width [0] size [32] name [main]
+        item [qty [1] use [63336]default:pick_bronze]
+        item [qty [1] use [38994]default:shovel_bronze]
+        item [qty [1] use [24388]default:axe_steel]
+    ]
+]

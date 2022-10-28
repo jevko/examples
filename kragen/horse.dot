@@ -1,0 +1,28 @@
+digraph horse {
+        rankdir=LR;
+        ranksep=1.5;
+        
+        node [shape=record, style="filled", fillcolor="#cc66cc:#336699", gradientangle=315, fontcolor=white, color="#fefefe33", margin=".1,.2"];
+        
+        horse [label="{|{<1>Name|<2>Conservation status|<3>Scientific classification|<4>Trinomial name|<5>Synonyms}}"];
+        scientific [label="{|{<1>Kingdom|<2>Phylum|<3>Class|<4>Order|<53>Family|<6>Genus|<7>Species|<8>Subspecies}}"];
+        trinomial [label="{|{<1>|<2>}}"];
+        
+        horse:1 -> Horse;
+        horse:2 -> Domesticated;
+        horse:3 -> scientific;
+        horse:4 -> trinomial;
+        horse:5 -> "at least 48 published";
+
+        scientific:1 -> Animalia;
+        scientific:2 -> Chordata;
+        scientific:3 -> Mammalia;
+        scientific:4 -> Perissodactyla;
+        scientific:53 -> Equidae;
+        scientific:6 -> Equus;
+        scientific:7 -> "E. ferus";
+        scientific:8 -> "E. f. caballus";
+        
+        trinomial:1 -> "Equus ferus caballus";
+        trinomial:2 -> "Linnaeus, 1758";
+}
