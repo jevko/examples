@@ -8,7 +8,7 @@ In these examples Jevko is used as:
 
 > A minimal Unicode syntax for ordered trees with labeled nodes and labeled arcs.
 
-The diagrams treat leading and trailing whitespace on arc labels (prefixes), as well as suffixes consisting only of whitespace as insignificant.
+The diagrams treat leading and trailing whitespace on arc labels (prefixes), as well as suffixes consisting only of whitespace, as insignificant.
 
 ## johnsmith.jevko
 
